@@ -34,7 +34,7 @@ RUN \
     && chmod +x $SASS_BINARY_PATH
 
 # Install node-sass and webpack globally
-RUN yarn global add node-sass webpack webpack-cli grunt-cli
+RUN yarn global add node-sass webpack-cli grunt-cli
 
 
 # Install custom helper for one command building
